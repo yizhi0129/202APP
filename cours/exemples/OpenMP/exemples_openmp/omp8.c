@@ -1,4 +1,4 @@
-#include <omp.h>
+#include </usr/local/Cellar/libomp/17.0.6/include/omp.h>
 #include <stdio.h>
 #include <pthread.h>
 

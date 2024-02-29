@@ -15,7 +15,7 @@ run (data_thread_t *arg)
 {
   int rank;
   rank = arg->rank;
-  printf ("Hello, I’am %d (%p) &rank %p & NB_THREADS %p\n", rank,
+  printf ("Hello, I'am %d (%p) &rank %p & NB_THREADS %p\n", rank,
 	  (void *) pthread_self (), &rank, &NB_THREADS);
   return arg;
 }

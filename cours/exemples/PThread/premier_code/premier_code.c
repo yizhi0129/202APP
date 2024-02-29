@@ -8,7 +8,7 @@ run (void *arg)
 {
   long rank;
   rank = (long) arg;
-  printf ("Hello, I’am %ld (%p) &rank %p & NB_THREADS %p\n", rank,
+  printf ("Hello, I'am %ld (%p) &rank %p & NB_THREADS %p\n", rank,
 	  (void *) pthread_self (), &rank, &NB_THREADS);
   return arg;
 }
